@@ -1,0 +1,79 @@
+html {
+  background-color: #fff;
+}
+body {
+  background-color: #ffffff;
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    rgb(53, 92, 175) 50%,
+    rgb(53, 92, 175) 100%
+  );
+  margin: 40px;
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.966);
+}
+
+.container img {
+  mix-blend-mode: multiply;
+}
+
+.card {
+  width: 70%;
+  background-color: rgb(53, 92, 175);
+  border: 2px solid;
+  border-radius: 20px;
+  /* margin: 50px 40px -10px -390px; */
+  margin: 5px -2px 20px 60px;
+}
+.card:hover {
+  box-shadow: 1px 1px 30px 1px rgba(2, 3, 51, 0.966);
+}
+
+.card h5 {
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: double;
+  text-transform: capitalize;
+}
+
+.card img {
+  height: 220px;
+  width: 10x;
+  margin: 10px 50px 10px px;
+  border-radius: 100%;
+}
+.card a {
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: black;
+  background-color: white;
+}
+.btn1 {
+  margin: 0 0 -30px 400px;
+}
+.btn1 a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  border: 1px solid;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+
+  background-color: #000000;
+  color: #fff;
+}
+.btn1 a:hover {
+  background-color: white;
+}
+.form {
+  margin-left: 10%;
+}
